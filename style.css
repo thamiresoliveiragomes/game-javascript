@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.botao-tela-inicial {
+  background-color: inherit;
+  background-image: url("images/assets/iniciar.png");
+  background-size: cover;
+  border: none;
+  width: 250px;
+  height: 65.5px;
+  font-size: 0;
+}
+
+.botao-tela-inicial:hover {
+  background-image: url("images/assets/iniciar press.png")
+}
+
+
+.botao-reiniciar {
+  background-color: inherit;
+  background-image: url("images/assets/reiniciar1.png");
+  background-size: cover;
+  border: none;
+  width: 90px;
+  height: 90px;
+  font-size: 0;
+}
+
+.gif{
+  width: 400px;
+  height: 80px;
+
+}
